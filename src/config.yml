@@ -1,0 +1,90 @@
+
+# NewTop é o evento chamado quando uma nova pessoa chega ao TOP 1 de alguma habilidade
+
+NewTop:
+    Sound:
+        Allow: true
+        Sound: 'NOTE_PLING' # Exemplos: NOTE_PLING, NOTE_HARP
+        
+    Chat:
+        Allow: true # Habilitar ou desabilitar Mensagem
+        Message: '&8&l[&fC&9S&5N&8&l] &4%player% &aé o novo top 1 &c%skill%&a!' # Mensagem
+        
+    Title:
+        Allow: true # Habilitar ou desabilitar Titulo
+        Title: '&a&lTemos um novo TopSkiller &c&lmcMMO&a&l!' # Título
+        Subtitle: '&4%player% &aé o novo top 1 &c%skill%&a!' # Subtítulo
+        
+# Tags das skills funcionam assim: Se um player for top 1 em Acrobacias, Ele ficará com a tag da 1º linha,
+# se ele for top 1 em Acrobacias e em Espadas, mas seu nível de Acrobacias é maior que o de espada, ele ficará
+# com a tag da linha 2, e assim por diante. (OBS: Pode adicionar quantas linhas quiser, irá de acordo com o padrão.)
+
+Skills:
+    ACROBATICS:
+        Tags: 
+            - "&8[&bAcrobata&8]&r "
+            - "&c&k!&8[&bAcrobata&8]&c&k!&r "
+            - "&4&n&k!!&8&n[&b&nAcrobata&8&n]&4&n&k!!&r "
+    SWORDS:
+        Tags:
+            - "&8&n[&9&nEspadachim&8&n]&r "
+            - "&c&n&k!&8&n[&9&nEspadachim&8&n]&c&n&k!&r "
+            - "&4&n&k!!&8&n[&9&nEspadachim&8&n]&4&n&k!!&r "
+    AXES:
+        Tags:
+            - "&8&n[&c&nDecapitador&8&n]&r "
+            - "&c&n&k!&8&n[&c&nDecapitador&8&n]&c&n&k!&r "
+            - "&4&n&k!!&8&n[&c&nDecapitador&8&n]&4&n&k!!&r "
+    ALCHEMY:
+        Tags:
+            - "&8&n[&3&nAlquimista&8&n]&r "
+            - "&c&n&k!&8&n[&3&nAlquimista&8&n]&c&n&k!&r "
+            - "&4&n&k!!&8&n[&3&nAlquimista&8&n]&4&n&k!!&r "
+    ARCHERY:
+        Tags:
+            - "&8[&bArqueiro&8]&r "
+            - "&c&k!&8[&bArqueiro&8]&c&k!&r "
+            - "&4&n&k!!&8&n[&b&nArqueiro&8&n]&4&n&k!!&r "
+    UNARMED:
+        Tags:
+            - "&8&n[&4&nBoxeador&8&n]&r "
+            - "&c&n&k!&8&n[&4&nBoxeador&8&n]&c&n&k!&r "
+            - "&4&n&k!!&8&n[&4&nBoxeador&8&n]&4&n&k!!&r "
+    FISHING:
+        Tags:
+            - "&8[&bPescador&8]&r "
+            - "&c&k!&8[&bPescador&8]&c&k!&r "
+            - "&4&n&k!!&8&n[&b&nPescador&8&n]&4&n&k!!&r "
+    REPAIR:
+        Tags:
+            - "&8[&8Ferreiro&8]&r "
+            - "&c&k!&8[&8Ferreiro&8]&c&k!&r "
+            - "&4&n&k!!&8&n[Ferreiro]&4&n&k!!&r "
+    MINING:
+        Tags:
+            - "&8&n[&6&nMinerador&8&n]&r "
+            - "&c&n&k!&8&n[&6&nMinerador&8&n]&c&n&k!&r "
+            - "&4&n&k!!&8&n[&6&nMinerador&8&n]&4&n&k!!&r "
+    TAMING:
+        Tags:
+            - "&8[&3Domador&8]&r "
+            - "&c&k!&8[&3Domador&8]&c&k!&r "
+            - "&4&n&k!!&8[&3Domador&8]&4&n&k!!&r "
+    WOODCUTTING:
+        Tags:
+            - "&8[&6Lenhador&8]&r "
+            - "&c&k!&8[&6Lenhador&8]&c&k!&r "
+            - "&4&n&k!!&8&n[&6&nLenhador&8&n]&4&n&k!!&r "
+    HERBALISM:
+        Tags:
+            - "&8&n[&a&nFazendeiro&8&n]&r "
+            - "&c&n&k!&8&n[&a&nFazendeiro&8&n]&c&n&k!&r "
+            - "&4&n&k!!&8&n[&a&nFazendeiro&8&n]&4&n&k!!&r "
+    EXCAVATION:
+        Tags:
+            - "&8[&eEscavador&8]&r "
+            - "&c&k!&8[&eEscavador&8]&c&k!&r"
+            - "&4&n&k!!&8&n[&e&nEscavador&8&n]&4&n&k!!&r "
+    
+
+
